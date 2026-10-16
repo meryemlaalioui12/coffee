@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loging.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <img src="turn-back.png" id="icon" href="index.html" alt="">
+    </div>
+    <div class="login-container">
+<!-- 
+        <a href="index.html" class="back-home">← Back to Home</a> -->
+
+        <div class="login-box">
+
+            <h1>Welcome Back!</h1>
+            <p class="subtitle">Login to your coffee account ☕</p>
+
+            <form id="loginForm">
+
+                <div class="input-group">
+                    <label for="email">Email Address</label>
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Enter your password"
+                        required
+                    >
+                </div>
+
+                <div class="login-options">
+                    <label>
+                        <input type="checkbox" id="remember">
+                        Remember me
+                    </label>
+
+                    <a href="#" id="forgotPassword">Forgot password?</a>
+                </div>
+
+                <button type="submit" class="login-btn">LOGIN</button>
+
+                <p id="message"></p>
+
+            </form>
+
+            <p class="signup-text">
+                Don't have an account?
+                <a href="#" id="signupLink">Sign up</a>
+            </p>
+
+        </div>
+
+    </div>
+    <script src="loging.js"></script>
+    
+</body>
+</html>
+
